@@ -1,5 +1,11 @@
 # react-webpack-template - Changelog
 
+## 1.8.0:
+
+1. add babel-plugin-transform-object-rest-spread to packagejson
+2. add babel-plugin-transform-object-rest-spread to babelrc
+3. remove `Object.assign` polyfill (and core-js dep)
+
 ## 1.7.0:
 
 1. Added back absolute paths to [make subroutes in react-router work](https://github.com/newtriks/generator-react-webpack/issues/228)
